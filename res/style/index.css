@@ -1,0 +1,39 @@
+/* Homepage ****************************/
+
+/* Hintergrund für die Homepage */
+#Homepage {
+  background: url("/res/img/Wallpaper.jpg") center fixed no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* Stil für die Box mit Unschärfeeffekt */
+.Box-Blur {
+  backdrop-filter: blur(15px);
+  width: 100%;
+  height: 25vh;
+}
+
+/* Zentrierte Ausrichtung für die Box */
+.Box-Center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hotel ****************************/
+
+/* Mindesthöhe für den Hotelabschnitt und Hintergrundfarbe */
+#Hotel {
+  min-height: 95vh;
+  background-color: #ebebeb;
+}
+
+/* Abstand ****************************/
+
+/* Mindesthöhe für den Abstand mit Schatten */
+#Abstand {
+  min-height: 2vh;
+  box-shadow: 0 0 70px 0 rgba(0, 0, 0, 1.1);
+}

@@ -1,0 +1,17 @@
+/* Stil für Box-1 */
+.Box-1 {
+  text-align: justify;
+}
+
+/* Stil für den Impressum-Text */
+.impressum-text {
+  margin-top: 5rem;
+}
+
+/* Stil für Überschriften im Impressum-Text */
+.impressum-text h2 {
+  background-color: #dbcb96;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+/* Allgemeine Stilisierung für den Body */
+body {
+  color: #333;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Stil für Box-1 */
+.Box-1 {
+  margin: 80px auto 20px;
+}
+
+/* Stil für Links */
+a {
+  color: #000;
+}
+
+/* Stil für die News-Liste */
+.news-list {
+  background-color: #fff;
+}
+
+/* Stil für einzelne News-Elemente */
+.news-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Stil für das News-Bild */
+.news-image {
+  float: left;
+  width: 200px;
+}
+
+/* Stil für den News-Text */
+.news-text {
+  margin-left: 210px;
+}
+
+/* Stil für die Karte */
+.card {
+  border: none !important; 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

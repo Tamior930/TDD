@@ -1,0 +1,15 @@
+/* Allgemeine Stilisierung für den Body */
+body {
+  background: url("/res/img/Registration_Wallpaper.jpg") center fixed no-repeat;
+  background-size: cover;
+}
+
+/* Stil für Box-1 */
+.Box-1 {
+  margin-top: 7rem;
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

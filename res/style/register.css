@@ -1,0 +1,83 @@
+/* General Styles ******************************/
+
+/* Hintergrund für den Body */
+body {
+  background: url("/res/img/Registration_Wallpaper.jpg") center fixed no-repeat;
+  background-size: cover;
+}
+
+/* Box 1 Styles ******************************/
+
+/* Stil für Box-1 */
+.Box-1 {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Navigation Tabs Styles ******************************/
+
+/* Stil für Navigations-Tabs */
+.nav-tabs {
+  --bs-nav-tabs-border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Stil für Navigations-Links */
+.nav-tabs .nav-link {
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Stil für ausgewählte Navigations-Links */
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: rgba(var(--bs-white-rgb));
+  backdrop-filter: blur(15px);
+  background-color: rgb(255 255 255 / 10%);
+  border-radius: 10px;
+}
+
+/* Box 2 Styles ******************************/
+
+/* Stil für Überschrift h4 */
+h4 {
+  color: rgb(226, 74, 74);
+}
+
+/* Stil für Info mit Hover-Effekt */
+#Info:hover {
+  color: rgb(27, 152, 255);
+  cursor: pointer;
+}
+
+/* Responsives Design ******************************/
+
+@media (max-width: 576px) {
+  /* Anpassungen für kleine Bildschirme */
+  .Box-1 {
+    width: 300px;
+  }
+
+  .page-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .col-auto {
+    margin: 0 auto;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

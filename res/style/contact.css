@@ -1,0 +1,43 @@
+/* Allgemeine Gestaltung für Body und Formular */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Abstand für Box-1 oben */
+.Box-1 {
+  margin-top: 10rem;
+}
+
+/* Stilisierung der Formularfelder */
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+/* Stilisierung des Absende-Buttons */
+form button {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #23272b;
+}
+
+/* Zentrieren des Formulars auf der Seite */
+.col.mt-5 {
+  text-align: center;
+}

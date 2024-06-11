@@ -1,0 +1,42 @@
+/* Body-Styling */
+body {
+    background: url("/res/img/AdminWP.jpg") center fixed no-repeat;
+    background-size: cover;
+}
+
+/* Tabellen-Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Box-1-Styling */
+.Box-1 {
+    background-color: #6c757d;
+    margin-top: 7rem;
+}
+
+/* Box-2-Styling */
+.Box-2 {
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+/* Box-3-Styling */
+.Box-3 {
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+/* Navbar, nav-link und Footer-Link-Styling */
+.navbar-brand, .nav-link, .footer a {
+    color: white!important;
+}
