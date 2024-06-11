@@ -26,17 +26,8 @@ th, td {
     margin-top: 7rem;
 }
 
-/* Box-2-Styling */
-.Box-2 {
-    background-color: rgba(0, 0, 0, 0.452);
-}
 
-/* Box-3-Styling */
-.Box-3 {
-    background-color: rgba(0, 0, 0, 0.205);
-}
-
-/* Navbar, nav-link und Footer-Link-Styling */
-.navbar-brand, .nav-link, .footer a {
+/* Footer-Link-Styling */
+.footer a {
     color: white!important;
 }

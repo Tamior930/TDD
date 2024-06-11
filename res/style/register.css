@@ -22,10 +22,6 @@ body {
 
 /* Navigation Tabs Styles ******************************/
 
-/* Stil für Navigations-Tabs */
-.nav-tabs {
-  --bs-nav-tabs-border-color: rgba(255, 255, 255, 0.3);
-}
 
 /* Stil für Navigations-Links */
 .nav-tabs .nav-link {

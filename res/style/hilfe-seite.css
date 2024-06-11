@@ -29,10 +29,6 @@ a:hover {
   text-decoration: none !important;
 }
 
-/* Inhaltspadding */
-.content {
-  padding: 7rem 0;
-}
 
 /* Überschriften-Stilisierung */
 h2 {
@@ -41,7 +37,7 @@ h2 {
 
 /* Akkordeon-Stil */
 /* Hintergrund und Abstand für jedes Akkordeon-Element */
-.custom-accordion .accordion-item {
+.custom-accordion {
   background-color: #f9f9f9;
   margin-bottom: 10px;
   position: relative;
@@ -50,7 +46,7 @@ h2 {
 }
 
 /* Stil für den Akkordeon-Link */
-.custom-accordion .accordion-item .btn-link {
+.custom-accordion .accordion-item {
   display: block;
   width: 100%;
   padding: 15px;
@@ -63,7 +59,7 @@ h2 {
 }
 
 /* Icon vor dem Akkordeon-Link */
-.custom-accordion .accordion-item .btn-link:before {
+.custom-accordion .accordion-item {
   font-family: 'icomoon';
   content: "\f067";
   position: absolute;
@@ -84,18 +80,18 @@ h2 {
 }
 
 /* Aktives Akkordeon-Element */
-.custom-accordion .accordion-item.active {
+.custom-accordion {
   z-index: 2;
 }
 
 /* Stil für aktiven Akkordeon-Link */
-.custom-accordion .accordion-item.active .btn-link {
+.custom-accordion .accordion-item.active {
   color: #72c02c;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* Stil für Akkordeon-Textinhalt */
-.custom-accordion .accordion-item .accordion-body {
+.custom-accordion .accordion-item {
   padding: 20px 20px 20px 20px;
   color: rgb(129, 129, 129);
 }
